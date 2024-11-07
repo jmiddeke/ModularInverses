@@ -1,5 +1,5 @@
 (* Find all integers m > 1 for which every unit modulo m is its own
-   inverse. *)
+   inverse. Run with "ocaml check_cases.ml". *)
 
 let rec gcd a b = (* Euclid's algorithm *)
   if b = 0 then abs a else gcd b (a mod b)  
